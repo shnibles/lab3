@@ -60,9 +60,16 @@ figure img {
 
 figure:hover {
 	box-shadow: 2px 2px 6px #555;
-	-webkit-transform: scale(1.5);
-	-moz-transfor: scale(1.5);
-	-o-transform: scale(1.5);
-	-ms-transform: scale(1.5);
-	trasform: scale(1.5);
+	
+	-webkit-transform: scale(1.5) rotate(-5deg);
+	-moz-transform: scale(1.5) rotate(-5deg);
+	-o-transform: scale(1.5) rotate(-5deg);
+	-ms-transform: scale(1.5) rotate(-5deg);
+	transform: scale(1.5) rotate(-5deg);
+
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	transition: all 0.2s ease;
 }
